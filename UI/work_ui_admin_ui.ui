@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1450</width>
+    <height>880</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1450</width>
+    <height>880</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1450</width>
+    <height>880</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Газпромнефть.Автоматизация</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1450</width>
+     <height>880</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../Image_dir/фон.jpg</pixmap>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="new_z">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>30</y>
+     <width>340</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>GillSans</family>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+color: 'white';
+background:rgb(0, 121, 186);
+border: 2px solid rgb(0, 121, 186);
+border-radius: 20px
+}
+
+QPushButton:pressed {
+background:rgb(0, 91, 156);
+border: 2px solid rgb(0, 91, 156)
+}</string>
+   </property>
+   <property name="text">
+    <string>Новые заявки</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancel_z">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>1100</x>
+     <y>30</y>
+     <width>340</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>GillSans</family>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+color: 'white';
+background:rgb(0, 121, 186);
+border: 2px solid rgb(0, 121, 186);
+border-radius: 20px
+}
+
+QPushButton:pressed {
+background:rgb(0, 91, 156);
+border: 2px solid rgb(0, 91, 156)
+}</string>
+   </property>
+   <property name="text">
+    <string>Отклоненные заявки</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="accept_z">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>740</x>
+     <y>30</y>
+     <width>340</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>GillSans</family>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+color: 'white';
+background:rgb(0, 121, 186);
+border: 2px solid rgb(0, 121, 186);
+border-radius: 20px
+}
+
+QPushButton:pressed {
+background:rgb(0, 91, 156);
+border: 2px solid rgb(0, 91, 156)
+}</string>
+   </property>
+   <property name="text">
+    <string>Подтвержденные заявки</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="z_n_r">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>30</y>
+     <width>340</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>GillSans</family>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+color: 'white';
+background:rgb(0, 121, 186);
+border: 2px solid rgb(0, 121, 186);
+border-radius: 20px
+}
+
+QPushButton:pressed {
+background:rgb(0, 91, 156);
+border: 2px solid rgb(0, 91, 156)
+}</string>
+   </property>
+   <property name="text">
+    <string>Заявки на рассмотрении</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

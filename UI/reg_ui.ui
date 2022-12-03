@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1450</width>
+    <height>880</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1450</width>
+    <height>880</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1450</width>
+    <height>880</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Газпромнефть.Автоматизация</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1450</width>
+     <height>880</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>1450</width>
+     <height>880</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>1450</width>
+     <height>880</height>
+    </size>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../Image_dir/фон.jpg</pixmap>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>425</x>
+     <y>15</y>
+     <width>600</width>
+     <height>811</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: 'white';
+border: 3px solid 'white';
+border-radius: 35px</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>40</y>
+      <width>431</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>GillSans</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>РЕГИСТРАЦИЯ ОРГАНИЗАЦИИ</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="org_name_edit">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>120</y>
+      <width>511</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>GillSans</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: rgb(0, 112, 186);
+border: 2 px solid rgb(0, 112, 186);
+border-radius: 25px;
+color: 'white'</string>
+    </property>
+    <property name="text">
+     <string>Введите наименование организации</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="org_inn_edit">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>220</y>
+      <width>511</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>GillSans</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: rgb(0, 112, 186);
+border: 2 px solid rgb(0, 112, 186);
+border-radius: 25px;
+color: 'white'</string>
+    </property>
+    <property name="text">
+     <string>Введите ИНН организации</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="org_email_edit">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>320</y>
+      <width>511</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>GillSans</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: rgb(0, 112, 186);
+border: 2 px solid rgb(0, 112, 186);
+border-radius: 25px;
+color: 'white'</string>
+    </property>
+    <property name="text">
+     <string>Введите E-mail организации</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="org_password_edit">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>420</y>
+      <width>511</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>GillSans</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: rgb(0, 112, 186);
+border: 2 px solid rgb(0, 112, 186);
+border-radius: 25px;
+color: 'white'</string>
+    </property>
+    <property name="text">
+     <string>Введите пароль организации</string>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Normal</enum>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="org_fio_edit">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>520</y>
+      <width>511</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>GillSans</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: rgb(0, 112, 186);
+border: 2 px solid rgb(0, 112, 186);
+border-radius: 25px;
+color: 'white'</string>
+    </property>
+    <property name="text">
+     <string>Введите ФИО куратора организации</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="reg_btn">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>740</y>
+      <width>271</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>GillSans</family>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+color: 'white';
+background: rgb(0, 64, 119);
+border: 2px solidrgb(0, 64, 119);
+border-radius: 20px
+}
+
+QPushButton:pressed {
+background: rgb(0, 34, 89);
+border: 2px solidrgb(0, 34, 89);
+}</string>
+    </property>
+    <property name="text">
+     <string>ЗАРЕГИСТРИРОВАТЬ</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="org_number_edit">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>620</y>
+      <width>511</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>GillSans</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: rgb(0, 112, 186);
+border: 2 px solid rgb(0, 112, 186);
+border-radius: 25px;
+color: 'white'</string>
+    </property>
+    <property name="text">
+     <string>Введите номер телефона куратора организации</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

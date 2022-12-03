@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1450</width>
+    <height>880</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1450</width>
+    <height>880</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1450</width>
+    <height>880</height>
+   </size>
+  </property>
+  <property name="acceptDrops">
+   <bool>false</bool>
+  </property>
+  <property name="windowTitle">
+   <string>Газпромнефть.Автоматизация</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1450</width>
+     <height>880</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../Image_dir/фон.jpg</pixmap>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>425</x>
+     <y>140</y>
+     <width>600</width>
+     <height>581</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: 'white';
+border: 3px solid 'white';
+border-radius: 35px</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>170</y>
+      <width>531</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>GillSans</family>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>ВХОД В ЛИЧНЫЙ КАБИНЕТ СОТРУДНИКА
+             ООО «Газпромнефть-Хантос»</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="admin_email_edit">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>270</y>
+      <width>511</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>GillSans</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: rgb(0, 112, 186);
+border: 2 px solid rgb(0, 112, 186);
+border-radius: 25px;
+color: 'white'</string>
+    </property>
+    <property name="text">
+     <string>Введите E-mail</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="admin_password_edit">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>360</y>
+      <width>511</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>GillSans</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: rgb(0, 112, 186);
+border: 2 px solid rgb(0, 112, 186);
+border-radius: 25px;
+color: 'white'</string>
+    </property>
+    <property name="inputMask">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Введите пароль</string>
+    </property>
+    <property name="maxLength">
+     <number>32767</number>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Normal</enum>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="remember_me">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>440</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>GillSans</family>
+      <pointsize>13</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Запомнить меня</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="sing_in_admin_btn">
+    <property name="geometry">
+     <rect>
+      <x>185</x>
+      <y>510</y>
+      <width>230</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>GillSans</family>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+color: 'white';
+background: rgb(0, 112, 186);
+border: 2px solid rgb(0, 112, 186);
+border-radius: 20px
+}
+
+QPushButton:pressed {
+background: rgb(0, 82, 156);
+border: 2px solid rgb(0, 82, 156)
+}</string>
+    </property>
+    <property name="text">
+     <string>ВОЙТИ</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>55</x>
+      <y>10</y>
+      <width>501</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../Image_dir/logos_reg.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="back_btn">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>GillSans</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 112, 186)</string>
+    </property>
+    <property name="text">
+     <string>&lt;</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
